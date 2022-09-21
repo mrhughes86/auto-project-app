@@ -90,4 +90,5 @@ fn main() {
         Transmission::Automatic,
     );
     my_vehicle.print();
+    my_other_vehicle.print();
 }
