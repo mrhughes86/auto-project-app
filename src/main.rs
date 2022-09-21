@@ -83,5 +83,11 @@ fn main() {
         VehicleColor::Black,
         Transmission::Standard,
     );
+    let my_other_vehicle = Vehicle::new(
+        24400.00,
+        VehicleType::Audi,
+        VehicleColor::Blue,
+        Transmission::Automatic,
+    );
     my_vehicle.print();
 }
